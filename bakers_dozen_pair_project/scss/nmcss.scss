@@ -1,0 +1,40 @@
+
+/*=====================================================================================
+Gathers all "SCSS Partials" & converts them to "CSS Code"
+for the "nmcss.css" file
+=======================================================================================*/
+
+@import 'global-variables';
+body {
+    margin: 0;
+    width: fit-content;
+}
+
+
+/*=====================================================================================
+External Page Settings (Samuel's Code)
+=======================================================================================*/
+
+@import 'content.scss';
+@import 'animations.scss';
+@import 'contactUs.scss';
+@import 'orders.scss';
+@import 'product.scss';
+
+/*=====================================================================================
+External Page Settings (Rhians Code)
+=======================================================================================*/
+
+@import 'misc_repeat.scss';
+@import 'header.scss';
+@import 'banner.scss';
+@import 'proudBox.scss';
+@import 'footer.scss';
+@import 'about.scss';
+@import 'testimonials.scss';
+
+/*=====================================================================================
+Media Settings
+=======================================================================================*/
+
+@import 'media.scss'; // S.M. Media
